@@ -67,7 +67,7 @@ def right_sharp(speed=100):
 import math
 
 def move(speed_B=0,speed_C=0):
-    max_speed = 100
+    max_speed = 50
     direction_B = int(math.copysign(1, speed_B))
     speed_B = int(abs(speed_B))
     direction_C = int(math.copysign(1, speed_C))
